@@ -3,7 +3,7 @@
 Create an AKS cluster via Terraform.
 
 ## Prerequisites
-To run this bundle, an Azure Service Principal will need to be created with `Contributer`-level access to the subscription being used.  For example:
+To run this bundle, an Azure Service Principal will need to be created with `Contributor`-level access to the subscription being used.  For example:
 ```
 az ad sp create-for-rbac -n "MySP" --role contributor --scopes "/subscriptions/<subscriptionId>"
 ```
